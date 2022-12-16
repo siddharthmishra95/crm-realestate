@@ -13,7 +13,7 @@ include 'importent-header.php';
 
 if(isset($_POST['submit']))
 {
-    $slider = mysqli_real_escape_string($conn, $_POST['slider']);
+    // $slider = mysqli_real_escape_string($conn, $_POST['slider']);
     $s_heading1 = mysqli_real_escape_string($conn, $_POST['s_heading1']);
     $s_heading2 = mysqli_real_escape_string($conn, $_POST['s_heading2']);
     $s_btn_text = mysqli_real_escape_string($conn, $_POST['s_btn_text']);
