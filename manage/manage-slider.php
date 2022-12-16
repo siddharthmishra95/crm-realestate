@@ -29,7 +29,7 @@ if(isset($_POST['submit']))
     $query_run = mysqli_query($conn, $query);
     if($query_run)
     {
-        echo "inserted";
+        echo "inserted"; 
         exit(0);
     }
     else
