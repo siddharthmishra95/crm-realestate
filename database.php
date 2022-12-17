@@ -1,13 +1,12 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$db = "crm";
-// Create connection
-$conn = mysqli_connect($servername, $username, $password, $db);
-// Check connection
-if (!$conn) {
-   die("Connection failed: " . mysqli_connect_error());
-}
-// echo "Connected successfully";
+$databaseHost = 'localhost';
+$databaseName = 'rakesh_crm';
+$databaseUsername = 'root';
+$databasePassword = '';
+
+$conn =  mysqli_connect($databaseHost, $databaseUsername, $databasePassword, $databaseName); 
+
+ini_set('display_startup_errors', 1);
+ini_set('display_errors', 1);
+error_reporting(-1);
 ?>

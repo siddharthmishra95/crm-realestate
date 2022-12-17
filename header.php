@@ -1,7 +1,6 @@
-
 <?php
 include 'database.php';
-mysqli_close($conn);
+// mysqli_close($conn);
 ?>
 
 <!DOCTYPE html>
@@ -14,10 +13,6 @@ mysqli_close($conn);
   <title>EstateAgency </title>
   <meta content="" name="description">
   <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <!-- <link href="assets/img/favicon.png" rel="icon"> -->
-  <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
@@ -38,7 +33,7 @@ mysqli_close($conn);
 
 <body>
 
- 
+
   <!-- ======= Property Search Section ======= -->
   <div class="click-closed"></div>
   <!--/ Form Search Star /-->
@@ -136,7 +131,8 @@ mysqli_close($conn);
   <!-- ======= Header/Navbar ======= -->
   <nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
     <div class="container">
-      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDefault"
+        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span></span>
         <span></span>
         <span></span>
@@ -163,7 +159,8 @@ mysqli_close($conn);
           </li>
 
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">Pages</a>
             <div class="dropdown-menu">
               <a class="dropdown-item " href="property-single.php">Property Single</a>
               <a class="dropdown-item " href="blog-single.php">Blog Single</a>
@@ -177,12 +174,12 @@ mysqli_close($conn);
         </ul>
       </div>
 
-      <button type="button" class="btn btn-b-n navbar-toggle-box navbar-toggle-box-collapse" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01">
+      <button type="button" class="btn btn-b-n navbar-toggle-box navbar-toggle-box-collapse" data-bs-toggle="collapse"
+        data-bs-target="#navbarTogglerDemo01">
         <i class="bi bi-search"></i>
       </button>
 
     </div>
   </nav>
-  
-  <!-- End Header/Navbar -->
 
+  <!-- End Header/Navbar -->
